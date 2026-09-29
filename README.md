@@ -75,14 +75,14 @@ Examples:
 
 | Student ID | Result |
 |---|---|
-| `1` | ✅ Allowed |
-| `25` | ✅ Allowed |
-| `S01` | ✅ Allowed |
-| `STD15` | ✅ Allowed |
-| `0` | ❌ Rejected |
-| `00` | ❌ Rejected |
-| `-1` | ❌ Rejected |
-| `S-01` | ❌ Rejected |
+| `1` |  Allowed |
+| `25` |  Allowed |
+| `S01` |  Allowed |
+| `STD15` |  Allowed |
+| `0` |  Rejected |
+| `00` |  Rejected |
+| `-1` |  Rejected |
+| `S-01` |  Rejected |
 
 #### View Students
 Displays all registered students in a read-only table containing:
@@ -356,6 +356,64 @@ The main dashboard provides centralized access to student and academic managemen
 
 ---
 
+## Screenshots
+
+The following screenshots show the main user interface and functionality of the Student Management System.
+
+### Login
+
+![Login](screenshots/01-Login.png)
+
+### Create Account
+
+![Create Account](screenshots/02-CreateAccount.png)
+
+### Dashboard
+
+![Dashboard](screenshots/03-Dashboard.png)
+
+### Add Student
+
+![Add Student](screenshots/04-AddStudent.png)
+
+### View Students
+
+![View Students](screenshots/05-ViewStudent.png)
+
+### Search Student
+
+![Search Student](screenshots/06-SearchStudent.png)
+
+### Delete Student
+
+![Delete Student](screenshots/07-DeleteStudent.png)
+
+### Enroll Course
+
+![Enroll Course](screenshots/08-EnrollCourse.png)
+
+### View Enrollments
+
+![View Enrollments](screenshots/09-ViewEnrollment.png)
+
+### Add Assignment
+
+![Add Assignment](screenshots/10-AddAssignment.png)
+
+### View Assignments
+
+![View Assignments](screenshots/11-ViewAssignments.png)
+
+### Complete Assignment
+
+![Complete Assignment](screenshots/12-CompleteAssignment.png)
+
+### CGPA Calculator
+
+![CGPA Calculator](screenshots/13-CGPACalculator.png)
+
+---
+
 ## Technologies Used
 
 | Technology | Purpose |
@@ -502,31 +560,23 @@ For a production-level application, authentication could be improved by adding:
 
 ### Included
 
-- ✅ Java Swing desktop application
-- ✅ User login
-- ✅ Account creation
-- ✅ Student CRUD-style management
-- ✅ Student search
-- ✅ Student deletion with related-record cleanup
-- ✅ Course enrollment
-- ✅ Duplicate enrollment prevention
-- ✅ Assignment creation
-- ✅ Calendar-based due dates
-- ✅ Assignment completion
-- ✅ Assignment status tracking
-- ✅ CGPA calculator
-- ✅ Input validation
-- ✅ OOP concepts
-- ✅ External library integration
-- ✅ Git-ready project structure
-
-### Not Included Yet
-
-- ❌ Database
-- ❌ Permanent data storage
-- ❌ Password hashing
-- ❌ Online/cloud functionality
-- ❌ Multi-user network access
+- Java Swing desktop application
+- User login
+- Account creation
+- Student CRUD-style management
+- Student search
+- Student deletion with related-record cleanup
+- Course enrollment
+- Duplicate enrollment prevention
+- Assignment creation
+- Calendar-based due dates
+- Assignment completion
+- Assignment status tracking
+- CGPA calculator
+- Input validation
+- OOP concepts
+- External library integration
+- Git-ready project structure
 
 ---
 
